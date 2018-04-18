@@ -1,0 +1,45 @@
+Assignment 4 Explanation — Jason Walker
+
+OUTPUTS:
+100 Value Array:
+	Merge Sort:
+		672 Moves
+		75285 ns
+	Selection Sort:
+		99 Moves
+		142514 ns
+	Insertion Sort:
+		2728 Moves
+		205015 ns
+	Bubble Sort:
+		2416 Moves
+		451891 ns
+2000 Value Array:
+	Merge Sort:
+		21952 Moves
+		1788577 ns
+	Selection Sort:
+		1999 Moves
+		7144300 ns
+	Insertion Sort:
+		996844 Moves
+		7927350 ns
+	Bubble Sort:
+		1004447 Moves
+		10220237 ns
+50,000 Value Array:
+	Merge Sort:
+		784464 Moves
+		14577296 ns
+	Selection Sort:
+		49999 Moves
+		648726779 ns
+	Insertion Sort:
+		626927318 Moves
+		1021703122 ns
+	Bubble Sort:
+		623754550 Moves
+		4354825651 ns
+
+Analysis —  
+These results are accurate to my understanding of these algorithms. Merge sort is understood to be the quickest way of sorting (in most cases), and with all 3 array sizes, the merge sort was way quicker than the rest because it is an O(n log n) sort. Selection sort is known to require the least amount of moves (and thus you would use this if moving values is expensive). In all 3 cases, selection sort had the least amount of moves than the others but the time is still high because it is an O(n^2) sort. Insertion sort is known to be faster on “partially sorted arrays.” Unfortunately, there was really no way to test that case in this project. Therefore, the insertion sort is seen to be slower than selection in every case despite them both being O(n^2) sorts. Sometimes the gap between the two was not as big as other times, which can be attributed to the array already being partially sorted when the sorting begun. Lastly, bubble sort is known to be the slowest O(n^2) sort. Even though it requires basically the same amount of moves as Insertion sort, it is slower in every case because it is so inefficient. Through multiple tests, the sorts all stayed true to their expected behavior.
