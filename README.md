@@ -8,6 +8,7 @@ This repository contains all of the projects and labs that I have completed thro
 * CS 0445 - Data Structures
 * CS 0447 - Computer Organization and Assembly
 * CS 0449 - Introduction to Systems Software
+* CS 1501 - Algorithm Implementation (W)
 
 ## Liscense
 Everything in this repo is distributed under the MIT License.
