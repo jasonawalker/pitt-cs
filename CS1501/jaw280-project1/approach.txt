@@ -1,0 +1,7 @@
+approach.txt
+
+My approach for the history was to create a HashMap (using the java standard library), where the Keys were the words and the Values were the frequencies. When outputting to the text file, the word and frequency are separated by a semicolon. 
+
+I decided to take this approach because search and insertion are both O(1) runtime. That way when you need to add to the table, or look up the existence of a word in the table you can do so in the fastest time possible. In order to implement the history predictions I used a linked list of strings sorted in decreasing order by frequencies. The linked list is sorted using Entry.compareByValue() which can be no faster than O(nlogN) runtime because it is a comparison sort. This linked list then gets passed to the prediction algorithm to be searched through in O(n) time, which is the best you can do for an iterative method. 
+
+I also used the java stack in order to keep track of which nodes have next values during prediction. I only use push() and pop() which are each very efficient with O(1) runtime.

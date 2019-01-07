@@ -1,0 +1,291 @@
+results.txt
+
+Unmodified LZW.java:
+- all.tar
+	Original size: 3.03 MB
+	Compressed size: 1.8 MB
+	Compression ratio: 1.683
+- assig2.doc
+	Original size: 87 KB
+	Compressed size: 75 KB
+	Compression ratio: 1.16
+- bmps.tar
+	Original size: 1.11 MB
+	Compressed size: 925 KB
+	Compression ratio: 1.2
+- code.txt
+	Original size: 70 KB
+	Compressed size: 31 KB
+	Compression ratio: 2.258
+- code2.txt
+	Original size: 55 KB
+	Compressed size: 24 KB
+	Compression ratio: 2.292
+- edit.exe
+	Original size: 236 KB
+	Compressed size: 251 KB
+	Compression ratio: .94
+- frosty.jpg
+	Original size: 127 KB
+	Compressed size: 177 KB
+	Compression ratio: .71
+- gone_fishin.bmp
+	Original size: 17 KB
+	Compressed size: 9 KB
+	Compression ratio: 1.889
+- large.txt
+	Original size: 1.2 MB
+	Compressed size: 599 KB
+	Compression ratio: 2.003
+- Lego-big.gif
+	Original size: 93 KB
+	Compressed size: 129 KB
+	Compression ratio: .72
+- medium.txt
+	Original size: 25 KB
+	Compressed size: 13 KB
+	Compression ratio: 1.923
+- texts.tar
+	Original size: 1.4 MB
+	Compressed size: 1 MB
+	Compression ratio: 1.4
+- wacky.bmp
+	Original size: 922 KB
+	Compressed size: 4 KB
+	Compression ratio: 230.5
+- winnt256.bmp
+	Original size: 157 KB
+	Compressed size: 159 KB
+	Compression ratio: .98
+
+MyLZW.java Do Nothing:
+- all.tar
+	Original size: 3.03 MB
+	Compressed size: 1.8 MB
+	Compression ratio: 1.683
+- assig2.doc
+	Original size: 87 KB
+	Compressed size: 40 KB
+	Compression ratio: 2.175
+- bmps.tar
+	Original size: 1.11 MB
+	Compressed size: 81 KB
+	Compression ratio: 13.704
+- code.txt
+	Original size: 70 KB
+	Compressed size: 24 KB
+	Compression ratio: 2.917
+- code2.txt
+	Original size: 55 KB
+	Compressed size: 20 KB
+	Compression ratio: 2.75
+- edit.exe
+	Original size: 236 KB
+	Compressed size: 156 KB
+	Compression ratio: 1.513
+- frosty.jpg
+	Original size: 127 KB
+	Compressed size: 164 KB
+	Compression ratio: .774
+- gone_fishin.bmp
+	Original size: 17 KB
+	Compressed size: 9 KB
+	Compression ratio: 1.889
+- large.txt
+	Original size: 1.2 MB
+	Compressed size: 498 KB
+	Compression ratio: 2.401
+- Lego-big.gif
+	Original size: 93 KB
+	Compressed size: 122 KB
+	Compression ratio: .762
+- medium.txt
+	Original size: 25 KB
+	Compressed size: 12 KB
+	Compression ratio: 2.083
+- texts.tar
+	Original size: 1.4 MB
+	Compressed size: 598 KB
+	Compression ratio: 2.341
+- wacky.bmp
+	Original size: 922 KB
+	Compressed size: 4 KB
+	Compression ratio: 230.5
+- winnt256.bmp
+	Original size: 157 KB
+	Compressed size: 63 KB
+	Compression ratio: 2.492
+
+MyLZW.java Reset:
+- all.tar
+	Original size: 3.03 MB
+	Compressed size: 1.2 MB
+	Compression ratio: 2.525
+- assig2.doc
+	Original size: 87 KB
+	Compressed size: 40 KB
+	Compression ratio: 2.175
+- bmps.tar
+	Original size: 1.11 MB
+	Compressed size: 81 KB
+	Compression ratio: 13.704
+- code.txt
+	Original size: 70 KB
+	Compressed size: 24 KB
+	Compression ratio: 2.917
+- code2.txt
+	Original size: 55 KB
+	Compressed size: 20 KB
+	Compression ratio: 2.75
+- edit.exe
+	Original size: 236 KB
+	Compressed size: 152 KB
+	Compression ratio: 1.553
+- frosty.jpg
+	Original size: 127 KB
+	Compressed size: 171 KB
+	Compression ratio: .743
+- gone_fishin.bmp
+	Original size: 17 KB
+	Compressed size: 9 KB
+	Compression ratio: 1.889
+- large.txt
+	Original size: 1.2 MB
+	Compressed size: 524 KB
+	Compression ratio: 2.29
+- Lego-big.gif
+	Original size: 93 KB
+	Compressed size: 122 KB
+	Compression ratio: .792
+- medium.txt
+	Original size: 25 KB
+	Compressed size: 12 KB
+	Compression ratio: 2.083
+- texts.tar
+	Original size: 1.4 MB
+	Compressed size: 590 KB
+	Compression ratio: 2.373
+- wacky.bmp
+	Original size: 922 KB
+	Compressed size: 4 KB
+	Compression ratio: 230.5
+- winnt256.bmp
+	Original size: 157 KB
+	Compressed size: 63 KB
+	Compression ratio: 2.492
+
+MyLZW.java Monitor:
+- all.tar
+	Original size: 3.03 MB
+	Compressed size: 1.8 MB
+	Compression ratio: 1.683
+- assig2.doc
+	Original size: 87 KB
+	Compressed size: 40 KB
+	Compression ratio: 2.175
+- bmps.tar
+	Original size: 1.11 MB
+	Compressed size: 81 KB
+	Compression ratio: 13.704
+- code.txt
+	Original size: 70 KB
+	Compressed size: 24 KB
+	Compression ratio: 2.917
+- code2.txt
+	Original size: 55 KB
+	Compressed size: 20 KB
+	Compression ratio: 2.75
+- edit.exe
+	Original size: 236 KB
+	Compressed size: 156 KB
+	Compression ratio: 1.523
+- frosty.jpg
+	Original size: 127 KB
+	Compressed size: 164 KB
+	Compression ratio: .774
+- gone_fishin.bmp
+	Original size: 17 KB
+	Compressed size: 9 KB
+	Compression ratio: 1.889
+- large.txt
+	Original size: 1.2 MB
+	Compressed size: 498 KB
+	Compression ratio: 2.410
+- Lego-big.gif
+	Original size: 93 KB
+	Compressed size: 122 KB
+	Compression ratio: .762
+- medium.txt
+	Original size: 25 KB
+	Compressed size: 12 KB
+	Compression ratio: 2.083
+- texts.tar
+	Original size: 1.4 MB
+	Compressed size: 598 KB
+	Compression ratio: 2.341
+- wacky.bmp
+	Original size: 922 KB
+	Compressed size: 4 KB
+	Compression ratio: 230.5
+- winnt256.bmp
+	Original size: 157 KB
+	Compressed size: 63 KB
+	Compression ratio: 2.492
+
+Other compression (gzip):
+- all.tar
+	Original size: 3.03 MB
+	Compressed size: 969 KB
+	Compression ratio: 3.127
+- assig2.doc
+	Original size: 87 KB
+	Compressed size: 23 KB
+	Compression ratio: 3.783
+- bmps.tar
+	Original size: 1.11 MB
+	Compressed size: 64 KB
+	Compression ratio: 12.344
+- code.txt
+	Original size: 70 KB
+	Compressed size: 15 KB
+	Compression ratio: 4.667
+- code2.txt
+	Original size: 55 KB
+	Compressed size: 13 KB
+	Compression ratio: 4.231
+- edit.exe
+	Original size: 236 KB
+	Compressed size: 127 KB
+	Compression ratio: 1.858
+- frosty.jpg
+	Original size: 127 KB
+	Compressed size: 127 KB
+	Compression ratio: 1
+- gone_fishin.bmp
+	Original size: 17 KB
+	Compressed size: 9 KB
+	Compression ratio: 1.889
+- large.txt
+	Original size: 1.2 MB
+	Compressed size: 489 KB
+	Compression ratio: 2.454
+- Lego-big.gif
+	Original size: 93 KB
+	Compressed size: 92 KB
+	Compression ratio: 1.011
+- medium.txt
+	Original size: 25 KB
+	Compressed size: 11 KB
+	Compression ratio: 2.273
+- texts.tar
+	Original size: 1.4 MB
+	Compressed size: 533 KB
+	Compression ratio: 2.627
+- wacky.bmp
+	Original size: 922 KB
+	Compressed size: 3 KB
+	Compression ratio: 307.333
+- winnt256.bmp
+	Original size: 157 KB
+	Compressed size: 50 KB
+	Compression ratio: 3.14

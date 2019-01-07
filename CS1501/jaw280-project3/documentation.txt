@@ -1,0 +1,40 @@
+documentation.txt
+Jason Walker - Project 3
+
+In order to discuss my approach to this project, I am going to break the documentation down into parts based on the different source files I created. 
+
+IMPLEMENTATION ANALYSIS
+
+Apartment.java
+This class file has fields for each of the 6 necessary variables in an apartment (address, apt number, etc.). It also has a method getIndex() which gets a hash value for a map I will discuss later. Also I overrode the toString() in order to make a cleaner output of the Apartment when I return the cheapest/biggest ones.
+
+PriceComparator.java / AreaComparator.java
+These two classes implement the Comparator interface and create a comparator for comparing the prices and square footage of two apartments. The two comparators accept 2 apartments as parameters. The price comparator returns a positive number if the 1st apartment is more expensive than the 2nd, and the area comparator returns a positive number if the 2nd apartment is bigger than the 1st.
+
+Heap.java
+This class is where the implementation of the PQ begins. The heap class has two different Apartment arrays which act as binary-heap-based priority queues and utilize the Comparators mentioned above for comparisons. The field minPQ is a min heap which compares the prices of two apartments in order to create the heap, so the cheapest is the highest priority. The field maxPQ is a max heap which compares the areas of two apartments in order to create the heap, so the largest is the highest priority. The class also has a Map which is used for indirection. The Map is a HashMap which maps Integers (keys corresponding to an Apartment created from Apartment.getIndex()) to an int[] array of length 2 which holds the indices of the apartment in the minPQ and maxPQ. The map allows for apartments which are not the root to be updated or removed and then reheaped.
+
+ApartmentPQ.java
+This class takes Heap.java and uses it in a way to allow for retrieval of min price and max area in a certain city. The first field, globalPQ, is an instance of the Heap which holds every apartment in both the minPQ and the maxPQ in their relative order. The second field, cityMap, is a HashMap which maps the name of a city to another Heap which only holds Apartments in that city. Each of these sub-queues still contain 2 PQ’s corresponding to price and area. Both Apartment PQ and Heap have methods which can insert, update, remove, and retrieve apartments from the queues. Retrieving the lowest overall price and the highest overall area utilizes globalPQ, and retrieving the lowest price and highest area by city utilizes the sub-queues corresponding to that city. 
+
+SPACE ANALYSIS
+- Heap = O(3n)
+Each apartment is stored once in the minPQ, once in the maxPQ, and once in the map (n+n+n)
+
+- Apartment PQ = O(6n)
+Each apartment is stored 3 times in the heap (3n) and 3 times in the cityMap because each sub-queue has 2 queues which store the apartments a total of 2 times and each have a map which stores the apartments an additional time
+
+RUNTIME ANALYISIS
+-Insert = O(4 log(n))
+Inserting into a heap is a log(n) operation which occurs twice for the globalPQ, and twice for the corresponding cityMap heap, and there are also lookup operations from the HashMaps but they can be ignored because of their lesser degree
+
+-Remove = O(4 log(n))
+Similar to above, the log(n) removal operation needs to happen 4 times in total, there are also lookup/removal options from the HashMaps but they are constant time and can be ignored because of their lesser degree
+
+-Update = O(2 log(n))
+Since we can only update the price of an Apartment, we only need to do reheap operations twice with log(n) time each, once again we ignore the Map lookups
+
+-Retrieve = O(1)
+Since we are using arrays, retrieval will be a constant time operation no matter what because we are getting the index from the Map
+
+*NOTE* Since we are using arrays to implement the heap, we will need to do resize operations which will asymptotically degrade the runtime to O(n) for insertion. However I chose to do an amortized analysis instead and ignore this. 
